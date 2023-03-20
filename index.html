@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preflop</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="preflop.js"></script>
+</head>
+<body id="entire">
+    <div class = "par">
+        <h4>1. Opening Range</h4>
+        <button class = "os" id = "open_s" onclick="os('open')">SHOW</button>
+        <h5 id="open_p">UTG Open</h5> 
+        <img id="open" src="preflop/UTG-open.png" alt="error"> 
+        <button class="arrow" id="open_b" onclick="b_open()">&larr;</button>
+        <button class="arrow" id="open_f" onclick="f_open()">&rarr;</button>
+    </div>
+    <div class = "par">
+        <h4>2. BB/SB Defend</h4>
+        <button class = "os" id = "def_s" onclick="os('def')">SHOW</button>
+        <h5 id="def_p">UTG-BB</h5> 
+        <img id="def" src="preflop/UTG-BB.png" alt="error"> 
+        <button class="arrow" id="def_b" onclick="b_def()">&larr;</button>
+        <button class="arrow" id="def_f" onclick="f_def()">&rarr;</button>
+    </div>
+    <div class = "par">
+        <h4>3. HJ/CO/BTN Defend</h4>
+        <button class = "os" id = "def2_s" onclick="os('def2')">SHOW</button>
+        <h5 id="def2_p">UTG-HJ</h5> 
+        <img id="def2" src="preflop/UTG-HJ.png" alt="error"> 
+        <button class="arrow" id="def2_b" onclick="b_def2()">&larr;</button>
+        <button class="arrow" id="def2_f" onclick="f_def2()">&rarr;</button>
+    </div>
+    <div class = "par">
+        <h4>4. Defend BB 3Bet</h4>
+        <button class = "os" id = "BB3_s" onclick="os('BB3')">SHOW</button>
+        <h5 id="BB3_p">BB-3B-UTG</h5> 
+        <img id="BB3" src="preflop/BB-3B-UTG.png" alt="error"> 
+        <button class="arrow" id="BB3_b" onclick="b_BB3()">&larr;</button>
+        <button class="arrow" id="BB3_f" onclick="f_BB3()">&rarr;</button>
+    </div>
+    <div class = "par">
+        <h4>5. Defend SB 3Bet</h4>
+        <button class = "os" id = "SB3_s" onclick="os('SB3')">SHOW</button>
+        <h5 id="SB3_p">SB-3B-UTG</h5> 
+        <img id="SB3" src="preflop/SB-3B-UTG.png" alt="error"> 
+        <button class="arrow" id="SB3_b" onclick="b_SB3()">&larr;</button>
+        <button class="arrow" id="SB3_f" onclick="f_SB3()">&rarr;</button>
+    </div>
+    <div class = "par">
+        <h4>6. Defend BTN+ 3Bet</h4>
+        <button class = "os" id = "BTN3_s" onclick="os('BTN3')">SHOW</button>
+        <h5 id="BTN3_p">SB-3B-UTG</h5> 
+        <img id="BTN3" src="preflop/SB-3B-UTG.png" alt="error"> 
+        <button class="arrow" id="BTN3_b" onclick="b_BTN3()">&larr;</button>
+        <button class="arrow" id="BTN3_f" onclick="f_BTN3()">&rarr;</button>
+    </div>
+
+</body>
+</html>

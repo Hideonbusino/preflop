@@ -1,0 +1,46 @@
+body{
+    margin-bottom: 2rem;
+}
+#entire{
+    background-color: rgba(0, 0, 0, 0.915);
+    color: rgb(207, 188, 41);
+    
+}
+
+img{
+    width:45rem;
+    display:none; 
+}
+h5{
+    display: none;
+    margin-left: 1rem;
+    font-weight:bold;
+    color:rgb(89, 219, 147);
+} 
+button{
+    display:inline-block;
+    color: darkmagenta;
+    background-color: rgb(220, 248, 248);
+    margin-left: 1rem;
+    border-radius: 20%;
+    cursor:pointer;
+}
+h4{
+    display:inline-block;
+}
+.arrow{
+    display:none; 
+    width:4rem; 
+    height:3rem;
+}
+.arrow-container{
+    position:absolute;
+    left:45rem;
+    bottom:15rem;
+}
+.par{
+    margin-left:1rem;
+    padding-bottom:0%;
+    margin-bottom: 0%;
+    
+}
